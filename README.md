@@ -5,12 +5,12 @@ A new organisation has decided to base their company logo on the three most comm
     YAHOO would have it's logo with the letters O, A, H.
     
 Note:
-    a. The problem statement must be exposed as an REST API
-    b. A JSON file of company ID and company name is attached with the problem statement. Store it in your file system.
-    c. The REST API will accept company ID as a input, fetch the name from JSON file, and will return company Id, company Name and logo characters as output.
+    1. The problem statement must be exposed as an REST API
+    2. A JSON file of company ID and company name is attached with the problem statement. Store it in your file system.
+    3. The REST API will accept company ID as a input, fetch the name from JSON file, and will return company Id, company Name and logo characters as output.
         I/P : {companyId: "C001"}
         O/P: {companyId:"C001" , companyName:"YAHOO",logoCharacters:"O,A,H"}
-    d. Use python as your programming language. Flask will be used as Web API. Coding standards and code design should be followed and will be considered for assessment will along with logic and output.
+    4. Use python as your programming language. Flask will be used as Web API. Coding standards and code design should be followed and will be considered for assessment will along with logic and output.
 
 ## Getting Started
 
