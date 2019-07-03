@@ -16,12 +16,28 @@ Note:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+```pip install virtualenv```
+```pip install virtualenvwrapper```
+```export WORKON_HOME=~/Envs```
+```source C:/Users/SS154/AppData/Local/Programs/Python/Python37-32/Scripts/virtualenvwrapper.sh```
+
+```mkvirtualenv my-venv```
+```workon my-venv```
+
+```pip install Flask```
+```pip freeze > requirements.txt```
+
+
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+- Python3
+- Virtual Environment
+- pip
+- Flask development server
 ```
 
 ### Installing
